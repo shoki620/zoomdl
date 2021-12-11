@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "zoomdownload",
+    "version": "1.0.0",
+    "description": "zoomの録画ダウンロード用",
+    "content_scripts": [
+      {
+        "matches": ["https://us06web.zoom.us/rec/play/*"],
+        "js": ["videodl.js"]
+      }
+    ]
+}
